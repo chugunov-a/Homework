@@ -39,11 +39,11 @@ double f = 1.999999999;
  byte twentyMinutes = 20;
  short day = 24 * 60;
  short threeDays = (short) (day * 3);
- short month = (short) (day * 30);
+ int month = day * 30;
  short performancePerTwentyMinutes = (short) (performance * twentyMinutes);
  short performancePerDay = (short) (performance * day);
  int performancePerThreeDays = performance * threeDays;
- int performancePerMonth = performance * month;
+ int performancePerMonth = (int) (performance * month);
   System.out.println(" За 20 минут машина произвела " + performancePerTwentyMinutes + " штук бутылок" +
           System.lineSeparator() + " За 1 день машина произвела " + performancePerDay + " штук бутылок" +
           System.lineSeparator() + " За 3 дня машина произвела " + performancePerThreeDays + " штук бутылок" +
