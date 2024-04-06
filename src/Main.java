@@ -32,7 +32,7 @@ double f = 1.999999999;
  short total = 480;
  short result = (short) (total / (lP + aS + eA));
   System.out.println(" На каждого ученика рассчитано " + result + " листов бумаги.");
- System.out.println(" Задание 4");
+ System.out.println("Задание 4");
  byte numberOfBottles = 16;
  byte time = 2;
  byte performance = (byte) (numberOfBottles / time);
