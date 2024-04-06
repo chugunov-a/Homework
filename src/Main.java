@@ -67,6 +67,27 @@ short totalWeight = (short) (banana + milk + iceCream + rawEggs);
 float kilo = totalWeight / 1000f;
  System.out.println(" Вес в граммах: " + totalWeight + " Вес в килограммах: " + kilo);
 System.out.println("Задание 7");
-
+short goal = 7000;
+short caseOne = 250;
+short caseTwo = 500;
+byte caseOneResult = (byte) (goal / caseOne);
+byte caseTwoResult = (byte) (goal / caseTwo);
+byte average = (byte) ((caseOneResult + caseTwoResult) / 2);
+ System.out.println(" На похудение потребуется в среднем " + average + " день");
+System.out.println(" Задача 8");
+int mashaSalary = 67760;
+int denisSalary = 83690;
+int krisSalary = 76230;
+int mashaNewSalary = (int) (mashaSalary + mashaSalary * 0.1);
+int denisNewSalary = (int) (denisSalary + denisSalary * 0.1);
+int krisNewSalary = (int) (krisSalary + krisSalary * 0.1);
+int mashaDifference = (mashaNewSalary * 12) - (mashaSalary * 12);
+int denisDifference = (denisNewSalary * 12) - (denisSalary * 12);
+int krisDifference = (krisNewSalary * 12) - (krisSalary * 12);
+ System.out.println(" Маша теперь получает " + mashaNewSalary + " рублей в месяц. Годовой доход вырос на "
+                + mashaDifference + " рублей в год" + System.lineSeparator() + " Денис теперь получает " + denisNewSalary +
+         " рублей в месяц. Годовой доход вырос на " + denisDifference + " рублей в год" + System.lineSeparator() +
+         " Кристина теперь получает " + krisNewSalary + " рублей в месяц. Годовой доход вырос на " + krisDifference +
+         " рублей в год");
     }
 }
