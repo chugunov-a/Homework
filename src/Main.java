@@ -43,11 +43,21 @@ double f = 1.999999999;
  short performancePerTwentyMinutes = (short) (performance * twentyMinutes);
  short performancePerDay = (short) (performance * day);
  int performancePerThreeDays = performance * threeDays;
- int performancePerMonth = (int) (performance * month);
+ int performancePerMonth = performance * month;
   System.out.println(" За 20 минут машина произвела " + performancePerTwentyMinutes + " штук бутылок" +
           System.lineSeparator() + " За 1 день машина произвела " + performancePerDay + " штук бутылок" +
           System.lineSeparator() + " За 3 дня машина произвела " + performancePerThreeDays + " штук бутылок" +
           System.lineSeparator() + " За месяц машина произвела " + performancePerMonth + " штук бутылок");
+System.out.println("Задание 5");
+byte totalNumber = 120;
+byte whiteDyeForOneClass = 2;
+byte brownDyeForOneClass = 4;
+byte totalDyeForOneClass = (byte) (whiteDyeForOneClass + brownDyeForOneClass);
+byte totalClassNumber = (byte) (totalNumber / totalDyeForOneClass);
+byte totalWhiteDye = (byte) (totalClassNumber * whiteDyeForOneClass);
+byte totalBrownDye = (byte) (totalClassNumber * brownDyeForOneClass);
+ System.out.println(" В школе, где " + totalClassNumber + " классов, нужно " + totalWhiteDye +
+         " банок белой краски и " + totalBrownDye + " банок коричневой краски");
 
     }
 }
