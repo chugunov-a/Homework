@@ -58,6 +58,15 @@ byte totalWhiteDye = (byte) (totalClassNumber * whiteDyeForOneClass);
 byte totalBrownDye = (byte) (totalClassNumber * brownDyeForOneClass);
  System.out.println(" В школе, где " + totalClassNumber + " классов, нужно " + totalWhiteDye +
          " банок белой краски и " + totalBrownDye + " банок коричневой краски");
+System.out.println("Задание 6");
+byte banana = 80;
+short milk = 105 * 2;
+short iceCream = 100 * 2;
+short rawEggs = 4 * 70;
+short totalWeight = (short) (banana + milk + iceCream + rawEggs);
+float kilo = totalWeight / 1000f;
+ System.out.println(" Вес в граммах: " + totalWeight + " Вес в килограммах: " + kilo);
+System.out.println("Задание 7");
 
     }
 }
