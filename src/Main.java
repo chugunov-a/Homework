@@ -42,6 +42,15 @@ public class Main {
          System.out.println(" Разница между массами бойцов = " + massDifference);
         System.out.println("Задача 7");
          System.out.println(" Остаток от деления между весами бойцов = " + boxer2Weight % boxer1Weight);
+        System.out.println("Задача 8.1");
+        var hours = 640;
+        var hoursFor1Employee = 8;
+         System.out.println(" Всего работников в комании - " + hours / hoursFor1Employee + " человек");
+        System.out.println("Задача 8.2");
+        var employees = 80 + 94;
+        var unknownNumberOfHours = (80 + 94) * 8;
+         System.out.println(" Если в компании работает " + employees + " человека, то всего " + unknownNumberOfHours + " часов работы может быть поделено между сотрудниками");
+
 
     }
 }
