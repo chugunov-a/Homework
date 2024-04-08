@@ -45,10 +45,11 @@ public class Main {
         System.out.println("Задача 8.1");
         var hours = 640;
         var hoursFor1Employee = 8;
-        System.out.println(" Всего работников в комании - " + hours / hoursFor1Employee + " человек");
+        var totalNumbersOfEmployees = hours / hoursFor1Employee;
+        System.out.println(" Всего работников в комании - " + totalNumbersOfEmployees + " человек");
         System.out.println("Задача 8.2");
-        var employees = 80 + 94;
-        var unknownNumberOfHours = (80 + 94) * 8;
+        var employees = totalNumbersOfEmployees + 94;
+        var unknownNumberOfHours = (totalNumbersOfEmployees + 94) * 8;
         System.out.println(" Если в компании работает " + employees + " человека, то всего " + unknownNumberOfHours + " часов работы может быть поделено между сотрудниками");
     }
 }
